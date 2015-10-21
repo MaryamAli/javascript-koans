@@ -31,8 +31,10 @@ describe("About Applying What We Have Learnt", function() {
             if (!hasMushrooms) productsICanEat.push(products[i]);
         }
     }
-
-    expect(productsICanEat.length).toBe(FILL_ME_IN);
+//imperative
+console.log(productsICanEat);
+//Pizza Primavera
+    expect(productsICanEat.length).toBe(1);
   });
 
   it("given I'm allergic to nuts and hate mushrooms, it should find a pizza I can eat (functional)", function () {
@@ -40,6 +42,7 @@ describe("About Applying What We Have Learnt", function() {
       var productsICanEat = [];
 
       /* solve using filter() & all() / any() */
+
 
       expect(productsICanEat.length).toBe(FILL_ME_IN);
   });
@@ -54,7 +57,6 @@ describe("About Applying What We Have Learnt", function() {
         sum += i;
       }
     }
-
     expect(sum).toBe(FILL_ME_IN);
   });
 
